@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background: rgb(223, 247, 255);
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.card1:hover{
+    transform: scale(1.05);
+    color: #333;
+    background: #fff;
+    z-index: 10000;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 768px)
+{
+    .cards{
+        width: 100%;
+        flex-direction: column;
+    }
+    .card1{
+        margin: 80px 0;
+    }
+}
+
+.card1{
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    margin: 7px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    box-shadow: 10px 20px 25px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+.card1 h3{
+   padding-top: 15px;
+   padding-bottom: 1px;
+   padding-left: 20px;
+   font-size:smaller;
+   color: #fff;
+   font-weight: 100;
+}
+
+#head {
+    padding-left: 18px;
+    color: rgba(255, 249, 249, 0.661);
+}
+
+.card1 p {
+    font-size: x-small;
+    padding-left: 60px;
+    color: rgba(111, 109, 109, 0.941);
+    padding-bottom: 15px;
+    padding-top: 3px;
+}
+
+.card1 h6{
+    padding-left: 60px;
+    font-weight: medium ;
+    margin: auto;
+    font-size: x small;
+    color: #333;
+}
+
+.play{
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    position: absolute;
+    top: 47px;
+    left: 250px;
+}
+
+/*********** STAR *********/
+
+.star{
+    height: 17px;
+    width: 17px; 
+    position: absolute;
+    left: 30px;
+}
+
+.star0{
+    top: 110px;
+}
+
+.star1{
+    top: 153px;
+}
+
+.star2{
+    top: 196px;
+}
+
+.star3{
+    top: 240px;
+}
+
+/******** CHECK LIST *******/
+
+.list{
+    height: 29px;
+    width: 29px;
+    border: 2px solid #3c39f8;
+    border-radius: 50%;
+    position: absolute;
+    left: 230px;
+    padding: 3.5px;
+}
+
+.list0{
+    top: 108px;
+}
+
+.list1{
+    top: 238px;
+}
+
+.checklist{
+    width: 28px;
+    height: 28px;
+    border: 2px solid hsla(0, 2%, 64%, 0.79);
+    border-radius: 50%;
+    position: absolute;
+    top: 152px;
+    left: 230px;
+    padding: 3.5px;
+}
+
+.check{
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    top: 195px;
+    
+}
+
+.check0{
+    left: 230px;
+}
+
+.check1{
+    left: 281px;  
+}
+
+
+/********Play*********/
+
+.play0{
+    height: 28px;
+    width: 28px;
+    border: 2px solid #16ffb9;
+    border-radius: 50%;
+    position: absolute;
+    left: 280px;
+    padding: 3.5px;
+}
+
+.play1{
+    top: 108px;
+}
+
+.play2{
+    top: 238px;
+}
+
+.greyplay{
+    border: 2px solid hsla(0, 2%, 64%, 0.79);
+    top: 152px;
+}
+
+.head{
+    background-color: #2d6ef8;
+}
+
+hr{
+    margin-top: 2px;
+    margin-bottom: 40px;
+}
+
